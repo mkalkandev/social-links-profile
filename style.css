@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    color:hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+}
+.container{
+    background-color:  hsl(0, 0%, 12%);
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+.avatar{
+    border-radius: 50%;
+    width: 5rem;
+}
+.name{
+    font-size: 1.5rem;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+}
+.country{
+    font-size: 0.75rem;
+    letter-spacing: 0.05rem;
+    margin: 0.5rem 0rem 1.5rem 0rem;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+.job{
+    font-size: 0.8rem;
+    margin: 1.2rem 1rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    letter-spacing: 0.05rem;
+}
+.text{
+    margin:0.5rem;
+}
+.links a{
+    text-decoration: none;
+}
+.links a li{
+    background-color:  hsl(0, 0%, 20%);
+    color:hsl(0, 0%, 100%);
+    border-radius: 0.7rem;
+    margin: 0.9rem 0.1rem;
+    padding: 1rem;
+    list-style: none;
+    transition: all 0.5s ease;
+}
+.links a li:hover{
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+}
+.attribution{
+     margin: 1.5rem 0rem;
+     font-size: 0.8rem; 
+     text-align: center; 
+}
+.attribution a { 
+    color: hsl(7, 62%, 53%); 
+    text-decoration: none;
+}
